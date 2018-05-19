@@ -1,0 +1,25 @@
+keluarga = ["ayah","ibu","anak"]  #penulisan lists
+print "Print listnya ", keluarga[0] 
+print "Print listnya ", keluarga[1] 
+print "Print listnya ", keluarga[2]
+print keluarga [1:2]  #akan mengakses lists dgn index 1-2
+#coba jalankan kode ini dan liat apa hasilnya
+keluarga.append("ponakan")
+print keluarga
+
+tup1 = ('ayah', 'ibu','anak', 1954, 1960,1990);
+tup2 = (1, 2, 3, 4, 5, 6, 7 );
+print "tup1[0]: ", tup1[0]
+print "tup2[1:5]: ", tup2[1:5]
+
+$data = array("nama"=>"ganjar","umur"=>"30","gender"=>"perempuan");
+print_r($data);
+data = {"nama":"ganjar","umur":30,"gender":"perempuan"}
+print data
+print data['nama']
+print data['umur']
+
+#via loop
+for key in data:
+    print key,"==>", data[key]
+
